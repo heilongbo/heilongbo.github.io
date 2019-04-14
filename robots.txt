@@ -1,12 +1,16 @@
 #hexo robots.txt
 User-agent: *
 Allow: /
+Allow: /categories/toss/
+Allow: /categories/pleasure/
 Allow: /archives/
 
+Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
+Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.heilongbo.com/sitemap.xml
-Sitemap: http://www.heilongbo.com/baidusitemap.xml
+Sitemap: https://www.heilongbo.com/sitemap.xml
+Sitemap: https://www.heilongbo.com/baidusitemap.xml
